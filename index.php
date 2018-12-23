@@ -21,7 +21,7 @@ ob_end_flush();
 <form method = "post">    
      
     <input type = "text" name = "uname" placeholder = "username"/><br> 
-    <input type = "text" name = "pass" placeholder = "password"/><br>
+    <input type = "password" name = "pass" placeholder = "password"/><br>
     <button type = "submit" name = "btn">Login !</button><br> 
 </form>
 </center>
