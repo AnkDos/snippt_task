@@ -8,6 +8,7 @@ $pass = $_POST['pass'];
 $qer = mysqli_query($conn,"select * from users where usern='$uname'");
 $fet = mysqli_fetch_assoc($qer);
 if($uname == $fet['usern'] && $pass == $fet['pass']){
+     $_SESSION['usr'] = $fet['sno'];
      header("Location: home.php");
 }
 else{
