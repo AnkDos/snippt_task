@@ -1,4 +1,5 @@
 <?php
+//Deleted All creds for security purpose
  define('DBHOST', 'localhost');
  define('DBUSER', '');
  define('DBPASS', '');
