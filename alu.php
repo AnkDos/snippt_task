@@ -3,7 +3,7 @@ ob_start();
 session_start();
 $sn = $_SESSION['usr'];
 $type = "al";
-echo $sn ;
+// echo $sn ;
 
 if(isset($_GET['ac'])){
     $del = $_GET['ac'] ;
@@ -21,6 +21,7 @@ ob_end_flush();
 <html>
     <head></head>
     <body>
+        <h1> Hello , Alumuni </h1>
         <center>
         <table border = "1">
             <p>Displaying only not seen requests. </p>
