@@ -31,8 +31,8 @@ ob_end_flush();
     <select name = "slot">
         
         <option value ="1pm - 2pm">1pm - 2pm </option>
-        <option value ="1pm - 2pm">4pm - 5pm </option>
-        <option value ="1pm - 2pm">6pm - 7pm </option>
+        <option value ="4pm - 5pm">4pm - 5pm </option>
+        <option value ="6pm - 7pm">6pm - 7pm </option>
         </select>
         
             <p> Select date ! </p>
